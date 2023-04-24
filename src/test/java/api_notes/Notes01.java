@@ -22,7 +22,7 @@ public class Notes01 {
 
     2 turlu De -Serialization yapacagiz:
                                         i) Gson: Google tarafindan uretilmistir.
-                                        ii) Object Mapper : En populer kullanma yontemi.
+                                        ii) Object Mapper : En populer kullanma yontemi/ library / tool
 
 
 Junit'i daha eski stabil oldugu icin kullaniyoruz.
@@ -50,4 +50,37 @@ actual data - response'in icinde geleen data
 
 
     // @ Test  Junitten import ediyoruz obur turlu calismaz cunku @Before annotation Junit testleri oncesi  calisacak
+
+
+
+    //Groovy: Java based programming language
+   // groovy language Java temelli bir programlama dilidir
+  //  Java icinde var
+
+
+
+
+    /*
+    pojo class'in avantajlari :
+    hizlidir, dinamiktir.
+     */
+
+
+    // Post Put yapacaksaniz "Pojo class" kullanabilirsiniz.
+
+
+    // Test class'imizin icinde "Exception" olmamali, dinamik olmali her turlu datatyla calisabilmeli.
+
+    // Api > B103 YH  9.Object Mappper 01:45 guzel soru var
+
+// kimligi
+
+/*
+Authentication is the process of verifying who a user is.  It confirms users are who they say they are.
+kimligi dogrulama
+Authorization is the process of verifying what they have access to.  It gives users permission to access a resource.
+yetki verecek kimligimize gore yetki alma
+ */
+
+
 }

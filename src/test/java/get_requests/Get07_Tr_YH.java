@@ -46,9 +46,10 @@ public class Get07_Tr_YH extends JsonPlaceHolderBaseUrl {
         assertEquals(200, response.statusCode()); // Status code is 200
         JsonPath jsonPath = response.jsonPath(); // Print all ids greater than 190 on the console
 
-        List<Integer> intListGroovy = jsonPath.getList("findAll{it.id>190}.id");//Groovy: Java based programming language
-        System.out.println("intListGroovy = " + intListGroovy);                      // groovy language Java temelli bir programlama dilidir
-        assertEquals(10, intListGroovy.size());
+        // Groovy language yardimiyla eleme yapicaz
+        List<Integer> list = jsonPath.getList("findAll{it.id>190}.id");//Groovy: Java based programming language
+        System.out.println("list = " + list);   // findAll{it.id>190}.id ==> groovy language Java temelli bir programlama dilidir
+        assertEquals(10, list.size());
 
 
 //        3)Print all userIds whose ids are less than 5 on the console
@@ -63,14 +64,6 @@ public class Get07_Tr_YH extends JsonPlaceHolderBaseUrl {
         System.out.println("titleList = " + titleList);
 //        Assert that "delectus aut autem" is one of the titles whose id is less than 5
         assertTrue(titleList.contains("delectus aut autem"));
-
-
-
-
-
-
-
-
 
 
 

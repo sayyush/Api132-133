@@ -39,6 +39,22 @@ public class Get09 extends JsonPlaceHolderBaseUrl {
         spec.pathParams("first", "todos", "second", 2);
 
         //Set the expected data
+
+        /*
+         {
+                "userId": 1,
+                "id": 2,
+                "title": "quis ut nam facilis et officia qui",
+                "completed": false
+            }
+         */
+       // yeni obje olusturucaz obje uzerinden method'a ulasicaz
+//    1. yol    JsonPlaceHolderTestData obj = new JsonPlaceHolderTestData();
+//        Map<String, Object> expectedData = obj.expectedDataMapMethod(1, "quis ut nam facilis et officia qui", false);
+//        System.out.println("expectedData = " + expectedData);
+//
+
+     // 2. yol   yukarda 2 satir yaptik burda 1 satir
         Map<String, Object> expectedData = new JsonPlaceHolderTestData().expectedDataMapMethod(1, "quis ut nam facilis et officia qui", false);
         expectedData.put("Via", "1.1 vegur");
         expectedData.put("Server", "cloudflare");

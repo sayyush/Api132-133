@@ -29,7 +29,7 @@ public class Post05ObjectMapper_Map extends JsonPlaceHolderBaseUrl {
                                     "userId": 55,
                                     "title": "Tidy your room",
                                     "completed": false,
-                                    "id": 201
+                                     "id": 201
                                     }
      */
 
@@ -55,5 +55,13 @@ public class Post05ObjectMapper_Map extends JsonPlaceHolderBaseUrl {
         assertEquals(expectedData.get("title"),actualData.get("title"));
         assertEquals(expectedData.get("userId"),actualData.get("userId"));
 
+
+
+        /*
+        ObjectMapper()  faydalari :  gelen response'imizi Obje mapper kullanarak onu map'e cevirmistik.
+        parantez icindeki response.asString oraya konulan herhangi String data sekilinde konulmus Json'i
+        istersek hashMap'e istersek pojo class'a cevirebiliyorduk.
+
+         */
     }
 }

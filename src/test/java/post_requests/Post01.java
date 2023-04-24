@@ -34,15 +34,13 @@ public class Post01 extends JsonPlaceHolderBaseUrl {
                                     }
      */
 
-
-
-
     @Test
     public void post01() {
         //Set the url
         spec.pathParam("first", "todos");
 
         //Set the expected data(Payload - gonderecegimiz data)
+
         // Datalarimiz Java dilinde yaziyoruz. Alttakini Java dilinde yazmak lazim.
         /*
               {

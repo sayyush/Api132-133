@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0aa99d-3e2d-4015-a9cf-aeb9fcffef39" name="Changes" comment="" />
+    <list default="true" id="3f0aa99d-3e2d-4015-a9cf-aeb9fcffef39" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/a_homeworks/Homework_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/a_homeworks/Homework_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_notes/Notes01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_notes/Notes01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_requests/Get07_Tr_YH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get07_Tr_YH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_requests/Get09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_requests/Get12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper_Pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper_Pojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/put_requests_Tr_YH/Put01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/put_requests_Tr_YH/Put01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ObjectMapperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ObjectMapperUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/a_homeworks/Hm07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/a_homeworks/Hm07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base_urls/GoRestBaseUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base_urls/GoRestBaseUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base_urls/HerOkuAppBaseUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base_urls/HerOkuAppBaseUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base_urls/JsonPlaceHolderBaseUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base_urls/JsonPlaceHolderBaseUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_requests/Get04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/get_requests/Get04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_requests/Get06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/get_requests/Get06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_requests/Get07_Tr_YH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/get_requests/Get07_Tr_YH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_requests/Get09.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/get_requests/Get09.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_requests/Get12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/get_requests/Get12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/JsonPlaceHolderPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/JsonPlaceHolderPojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/post_requests/Post01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/post_requests/Post01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/post_requests/Post02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/post_requests/Post02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/put_requests_Tr_YH/Put01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/put_requests_Tr_YH/Put01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_data/JsonPlaceHolderTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_data/JsonPlaceHolderTestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_data/ReqresTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_data/ReqresTestData.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +50,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,39 +85,8 @@
       <recent name="base_urls" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Hm07.post07">
-    <configuration name="DTGetPractice01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice_dt" />
-      <option name="MAIN_CLASS_NAME" value="practice_dt.DTGetPractice01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DTGetPractice01.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.DTGetPractice01" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get03.get03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Post02">
+    <configuration name="Get07_Tr_YH.get07_Tr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
@@ -89,25 +95,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get03" />
-      <option name="METHOD_NAME" value="get03" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get07_Tr_YH" />
+      <option name="METHOD_NAME" value="get07_Tr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hm05.hm01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_homeworks.*" />
+          <option name="PATTERN" value="get_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_homeworks" />
-      <option name="MAIN_CLASS_NAME" value="a_homeworks.Hm05" />
-      <option name="METHOD_NAME" value="hm01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get09" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,13 +133,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Post02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post02" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post02.post02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post02" />
+      <option name="METHOD_NAME" value="post02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Post02" />
+        <item itemvalue="JUnit.Post02.post02" />
+        <item itemvalue="JUnit.Get09" />
+        <item itemvalue="JUnit.Get07_Tr_YH.get07_Tr" />
         <item itemvalue="JUnit.Hm07.post07" />
-        <item itemvalue="JUnit.Get03.get03" />
-        <item itemvalue="JUnit.DTGetPractice01.get01" />
-        <item itemvalue="JUnit.DTGetPractice01" />
-        <item itemvalue="JUnit.Hm05.hm01" />
       </list>
     </recent_temporary>
   </component>

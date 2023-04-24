@@ -19,7 +19,7 @@ public class Post04 extends HerOkuAppBaseUrl {
           "lastname": "Doe",
           "totalprice": 999,
           "depositpaid": true,
-          "bookingdates": {
+          "bookingdates": {                        bunun icin bir pojo class olusturucaz ilk once
               "checkin": "2021-09-21",
               "checkout": "2021-12-21"
            },

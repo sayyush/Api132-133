@@ -2,6 +2,13 @@ package pojos;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+
+/*
+"bookingdates": {                        bunun icin bir pojo class olusturucaz ilk once
+              "checkin": "2021-09-21",
+              "checkout": "2021-12-21"
+           }
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BookingDatesPojo {
     private String checkin;

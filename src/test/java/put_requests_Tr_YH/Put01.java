@@ -16,7 +16,7 @@ public class Put01 extends JsonPlaceHolderBaseUrl {
 
        /*
          Given
-           1) https://jsonplaceholder.typicode.com/todos/201
+           1) https://jsonplaceholder.typicode.com/todos/198
            2)  {
                  "userId": 21,
                  "title": "Wash the dishes",
@@ -36,14 +36,15 @@ public class Put01 extends JsonPlaceHolderBaseUrl {
      */
 
     @Test
-    public void put01() {
+    public void put01() {   // test methodu olusturduk
 
         // Set the url
 
         spec.pathParams("first", "todos", "second", 198);
 
-        // Set the expected data
+        // Set the expected data   gonderecegimiz datayi olusturduk
         Map<String, Object> expectedData = new HashMap<>();
+        // Altta expected.Data'yi surekli tekrarli sekilde kullaniyoruz onun yerine method olusturucaz onu surekli kullanicaz
         expectedData.put("userId", 21);
         expectedData.put("title", "Wash the dishes");
         expectedData.put("completed", false);
@@ -75,7 +76,7 @@ public class Put01 extends JsonPlaceHolderBaseUrl {
         spec.pathParams("first", "todos", "second", 198);
 
         // Set the expected data
-        JsonPlaceHolderTestData obj = new JsonPlaceHolderTestData();
+        JsonPlaceHolderTestData obj = new JsonPlaceHolderTestData();  // obje olusturduk
 
         Map<String, Object> expectedData = obj.expectedDataMapMethod(198,"Wash the dishes",false); // Recommended
         System.out.println("expectedData = " + expectedData);

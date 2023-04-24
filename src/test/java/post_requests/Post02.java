@@ -46,6 +46,7 @@ public class Post02 extends HerOkuAppBaseUrl {
                                         }
 */
 
+
     @Test
     public void post02() {
 
@@ -71,6 +72,7 @@ public class Post02 extends HerOkuAppBaseUrl {
         Map<String, Object> actualData = response.as(HashMap.class);
         System.out.println("actualData = " + actualData);
 
+    // Type Casting yaptik burda , baska yontemlerde var pojo class'la yapicaz sonra
         assertEquals(200, response.statusCode());
         assertEquals(expectedData.get("firstname"), ((Map) actualData.get("booking")).get("firstname"));
         assertEquals(expectedData.get("lastname"), ((Map) actualData.get("booking")).get("lastname"));

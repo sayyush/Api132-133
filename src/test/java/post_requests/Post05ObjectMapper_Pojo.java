@@ -32,7 +32,7 @@ public class Post05ObjectMapper_Pojo extends JsonPlaceHolderBaseUrl {
      */
 
     @Test//This is the best way
-    public void post05() throws IOException {
+    public void post05() throws IOException {  // test class'in icinde exception olmamali
         //Set the url
         spec.pathParam("first", "todos");
 
@@ -44,7 +44,7 @@ public class Post05ObjectMapper_Pojo extends JsonPlaceHolderBaseUrl {
         Response response = given(spec).body(expectedData).post("{first}");
         response.prettyPrint();
 
-        //Do assertion
+        //Do assertion                                     okunacak yer                            cevirilecek yer
         JsonPlaceHolderPojo actualData = new ObjectMapper().readValue(response.asString(), JsonPlaceHolderPojo.class);
         System.out.println("actualData = " + actualData);
 

@@ -48,11 +48,15 @@ public class Get12 extends GoRestBaseUrl {
                 statusCode(200).
                 body("meta.pagination.limit", equalTo(10),
                         "meta.pagination.links.current", equalTo("https://gorest.co.in/public/v1/users?page=1"),
-                        "data", hasSize(10),
+                        "data", hasSize(10),  // The number of users should  be 10
                         "data.status", hasItem("active"),
                         "data.name", hasItems("Sushma Somayaji", "Girika Dwivedi", "Anjali Sharma III"));
 
 
+        /*
+        Yukaridaki body method'unun icierisinden datayi disariya alip ayri ayri karsilastirma yapamadigimiz icin
+         jsonPath() ile islemimizi kolay yapabilicez.
+         */
         // The female users are less than or equals to male users
         //I will compare number of female and male users
         //1st Way: I will get all genders in a list then calculate the number of females
